@@ -9,6 +9,10 @@ phases:
     commands:
       - echo "******** Building Jekyll site ********"
       - jekyll build
+      - ls _site/
+      - ls 
+      - aws s3 ls s3://mcfalls.me
+      - ls _site/
   post_build:
     command:
       - echo "******** Uploading to S3 ********"
