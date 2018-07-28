@@ -3,10 +3,13 @@ version: 0.1
 phases:
   install:
     commands:
-      - gem install jekyll jekyll-paginate jekyll-sitemap jekyll-gist jekyll-feed
+      - gem install jekyll jekyll-paginate jekyll-sitemap je
+      - bundle update
   build:
     commands:
       - echo "******** Building Jekyll site ********"
       - jekyll build
+  post_build:
+    command
       - echo "******** Uploading to S3 ********"
       - aws s3 sync _site/ s3://mcfalls.me
