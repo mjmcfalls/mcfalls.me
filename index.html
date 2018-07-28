@@ -1,54 +1,13 @@
-<!doctype html>
-<html>
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-    <title>Matthew McFalls IT Professional</title>
-    <meta name="description" content="The website of Matthew McFalls, IT Professional">
-    <link href="https://fonts.googleapis.com/css?family=Pathway+Gothic+One" rel="stylesheet">
-    
-    <link rel="stylesheet" type="text/css" href="css/mcfallsTemplate.css" />
-	
-    <script type="text/javascript" src="js/mcfallsMenu.js"></script>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-41040917-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+---
+layout: default
+title: Matthew J McFalls
+---
 
-  gtag('config', 'UA-41040917-1');
-</script> 	
-</head>
-<body>
-
+<div id="home">
+  <h1>Blog Posts</h1>
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
 </div>
-    <div class="wrapper">
-            <div id="mySidenav" class="sidenav">
-                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                    <a href="http://docs.google.com/forms/d/1SjuZ-00mBf4pX20q95MuIDPRWKZ_7VbsufhSRATGeLM/viewform">Contact</a>
-                    <!-- <a href="https://mcfalls.me/dashboard">Dashboard</a> --> 
-                    <a href="https://github.com/mjmcfalls">GitHub</a>
-                    <a href="https://www.linkedin.com/in/matthewjmcfalls/">LinkedIn</a>
-                    <!-- <a href="https://wiki.mcfalls.me">Wiki</a> -->
-             </div>
-
-        <div id="header" class="header">
-            <h2 class="headerName">Matthew McFalls</h2>
-            <svg height="50" width="250">
-                <line x1="0" y1="0" x2="250" y2="0" style="stroke:#E53A40;stroke-width:20" />
-              </svg>
-        </div>
-        <div id="menu" class="menu">
-                <span style="font-size:25px;cursor:pointer" onclick="openNav()">&#9776;</span>
-            </div>
-        <div id="content" class="content">
-            <p>I am <b>Matthew McFalls</b> an IT professional, wannabe guitarist, and amateur bicycle racer. I code in some of my free time for automation projects and to keep a basic knowledge of programming.</p>
-            <p>You can reach me at the Contact link in the menu or below.</p>  
-        </div>
-        <div class="contactbtn"><a href="http://docs.google.com/forms/d/1SjuZ-00mBf4pX20q95MuIDPRWKZ_7VbsufhSRATGeLM/viewform">Contact</a></div>
-        <div id="footer" class="footer">All Rights Reserved - Matthew McFalls</div>
-    </div>
-</body>
-</html>
