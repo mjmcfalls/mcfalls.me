@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Nutanix CE Notes"
-date: 2019-05-29
+date: 2019-06-05
 categories: nutanix ce
 tags: nutanix ce
 ---
@@ -20,7 +20,7 @@ tags: nutanix ce
 * Run all: ```ncc health_checks run_all```
 * Rerun failing checks: ```ncc --rerun_failing_plugins=True```
 
-* Checks can be run in parallel with --parallel=4 flag (4 is the max)
+* Checks can be run in parallel with ```--parallel=4``` flag (4 is the max)
 * Display status in terminal with --use-npyscreen
 
 * Power Off all VMs that are powered on: ```for vm_name in `acli vm.list power_state=on | grep -v ^'VM name' | awk '{print $1}'`; do acli vm.force_off $vm_name; done`ncli cluster get-params```  
