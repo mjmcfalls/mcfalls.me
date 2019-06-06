@@ -68,7 +68,7 @@ I had a spare Dell T710 running a single L5640 with 20 GBs of RAM instead of one
 #### Build Specific steps
 --------
 I am not going to document where and how to put Nutanix CE on a USB 3 flash drive -- there are plenty of guides to do similar things.  
-This first time I build the cluster I took the long way around to get the old network inferface names. The shorter version is much easier and quicker.  
+This first time I built the cluster I took the long way around to get the old network inferface names. The shorter version is much easier and quicker.  
 
 ##### Set interface names
 1. Edit Grub - `vi /etc/default/grub`  
