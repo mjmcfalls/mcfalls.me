@@ -23,7 +23,7 @@ tags: nutanix ce
 * Checks can be run in parallel with ```--parallel=4``` flag (4 is the max)
 * Display status in terminal with --use-npyscreen
 
-* Power Off all VMs that are powered on: ```for vm_name in `acli vm.list power_state=on | grep -v ^'VM name' | awk '{print $1}'`; do acli vm.force_off $vm_name; done`ncli cluster get-params```  
+* Power Off all VMs that are powered on: ```for vm_name in `acli vm.list power_state=on | grep -v ^'VM name' | awk '{print $1}'`; do acli vm.force_off $vm_name; done```  
 
 * Change CVM vlan: ```change_cvm_vlan VLAN_ID```
 * Set the OpenVSwitch Vlan on the host: ```ovs-vsctl set port br0 tag=10```
