@@ -9,4 +9,6 @@ I created a local docker-compose to stand up a development/testing instance for 
 
 To avoid having to provision a externally accessible domain for testing, I used the the Small Step CA docker container to build work as an ACME server.  I exported the certs, then built a custom traefik container with the Small Step certificates installed.  I tried a couple of other methods, but building a custom container with the certificates proved to be the easier route. 
 
+The dev code can be found at [https://github.com/mjmcfalls/monica_crm](https://github.com/mjmcfalls/monica_crm)
+
 

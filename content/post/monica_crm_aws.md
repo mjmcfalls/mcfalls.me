@@ -24,6 +24,8 @@ Configure the ECS cluster
 Configure SES
 
 
+The code can be found at [https://github.com/mjmcfalls/monica_crm](https://github.com/mjmcfalls/monica_crm)
+
 
 Notes:
 * ECS EC2 instance needs connectivity back to ECS for the agents to report in; I had to add an Internet Gateway get this to happen.
