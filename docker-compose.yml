@@ -1,0 +1,16 @@
+version: "3"
+
+services:
+  hugo:
+    image: "klakegg/hugo"
+    container_name: "hugo"
+    command: server --disableFastRender --buildFuture --buildDrafts
+    networks:
+      - web
+    volumes:
+      - ./mcfalls.me:/src
+    ports:
+      - "1313:1313"
+networks:
+  web:
+    name: web

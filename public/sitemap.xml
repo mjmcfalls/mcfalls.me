@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://mcfalls-me-www-test.s3-website.us-east-2.amazonaws.com/contact/</loc>
+    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mcfalls-me-www-test.s3-website.us-east-2.amazonaws.com/post/</loc>
+    <lastmod>2019-06-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mcfalls-me-www-test.s3-website.us-east-2.amazonaws.com/post/2019-06-06-advanced-automated-powershell-notes/</loc>
+    <lastmod>2019-06-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mcfalls-me-www-test.s3-website.us-east-2.amazonaws.com/</loc>
+    <lastmod>2019-06-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mcfalls-me-www-test.s3-website.us-east-2.amazonaws.com/post/2019-06-05-nutanix-ce-notes/</loc>
+    <lastmod>2019-06-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mcfalls-me-www-test.s3-website.us-east-2.amazonaws.com/post/2019-05-26-nutanix-ce-build/</loc>
+    <lastmod>2019-05-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mcfalls-me-www-test.s3-website.us-east-2.amazonaws.com/about/</loc>
+  </url>
+  
+  <url>
+    <loc>http://mcfalls-me-www-test.s3-website.us-east-2.amazonaws.com/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>http://mcfalls-me-www-test.s3-website.us-east-2.amazonaws.com/tags/index/</loc>
+  </url>
+  
+  <url>
+    <loc>http://mcfalls-me-www-test.s3-website.us-east-2.amazonaws.com/tags/</loc>
+  </url>
+  
+</urlset>
