@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en" data-theme=""><head>
+    <title> Matthew McFalls | Powershell Notes - Advanced Automated Administration Class </title>
+
+    
+    <meta charset="utf-8"><meta name="generator" content="Hugo 0.79.0" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+    <meta name="description" content="My Random stuff">
+    
+    <link rel="stylesheet"
+          href="http://mcfalls-me-www-test.s3-website.us-east-2.amazonaws.com/css/style.min.28b1ee64753ae7e3e46327acb742498816170bd217640dd4bf69240697a4d5e4.css"
+          integrity="sha256-KLHuZHU65&#43;PkYyest0JJiBYXC9IXZA3Uv2kkBpek1eQ="
+          crossorigin="anonymous"
+          type="text/css">
+    
+    <link rel="stylesheet"
+        href="http://mcfalls-me-www-test.s3-website.us-east-2.amazonaws.com/css/markupHighlight.min.9755453ffb7bc4cd220f86ebb5922107b49f193cc62fc17e9785d27b33a8bf5b.css"
+        integrity="sha256-l1VFP/t7xM0iD4brtZIhB7SfGTzGL8F&#43;l4XSezOov1s="
+        crossorigin="anonymous"
+        type="text/css">
+    
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" 
+    integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" 
+    crossorigin="anonymous" />
+
+    
+    <link rel="shortcut icon" href="http://mcfalls-me-www-test.s3-website.us-east-2.amazonaws.com/favicons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="http://mcfalls-me-www-test.s3-website.us-east-2.amazonaws.com/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="http://mcfalls-me-www-test.s3-website.us-east-2.amazonaws.com/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="http://mcfalls-me-www-test.s3-website.us-east-2.amazonaws.com/favicons/favicon-16x16.png">
+
+    <link rel="canonical" href="http://mcfalls-me-www-test.s3-website.us-east-2.amazonaws.com/post/2019-06-06-advanced-automated-powershell-notes/">
+
+    
+    
+    
+    
+    <script type="text/javascript"
+            src="http://mcfalls-me-www-test.s3-website.us-east-2.amazonaws.com/js/anatole-header.min.e782db136ec18d105a4552702eac49f4620d6867da3fbf808bd53e806c96be6e.js"
+            integrity="sha256-54LbE27BjRBaRVJwLqxJ9GINaGfaP7&#43;Ai9U&#43;gGyWvm4="
+            crossorigin="anonymous"></script>
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Powershell Notes - Advanced Automated Administration Class"/>
+<meta name="twitter:description" content="These are my notes from the Global Knowledge &ldquo;Advanced Automated Administration with Powershell&rdquo; class."/>
+
+</head>
+<body><div class="sidebar animated fadeInDown ">
+    <div class="logo-title">
+        <div class="title">
+            <img src="http://mcfalls-me-www-test.s3-website.us-east-2.amazonaws.com/images/mcfalls.matthew.headshot.fenixfoto.5R4A8284-9.jpg" alt="profile picture">
+            <h3 title=""><a href="/">Matthew McFalls</a></h3>
+            <div class="description">
+                <p>My Random stuff</p>
+            </div>
+        </div>
+    </div>
+    <ul class="social-links">
+        
+            <li>
+                <a href="https://www.linkedin.com/in/matthewjmcfalls/" rel="me" aria-label="Linkedin">
+                    <i class="fab fa-linkedin fa-2x" aria-hidden="true"></i>
+                </a>
+            </li>
+        
+            <li>
+                <a href="https://github.com/mjmcfalls" rel="me" aria-label="GitHub">
+                    <i class="fab fa-github fa-2x" aria-hidden="true"></i>
+                </a>
+            </li>
+        
+    </ul>
+    <div class="footer">
+        <div class="by_farbox">&copy; Matthew McFalls 2021 </div>
+    </div>
+</div>
+<div class="main">
+    <div class="page-top  animated fadeInDown ">
+    <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+    </a>
+    <ul class="nav" id="navMenu">
+        
+        
+            
+            <li><a 
+                   href="/"
+                        
+                   title="">Home</a></li>
+        
+            
+            <li><a 
+                   href="/post/"
+                        
+                   title="">Posts</a></li>
+        
+            
+            <li><a 
+                   href="/about/"
+                        
+                   title="">About</a></li>
+        
+        
+        <li class="theme-switch-item">
+            <a class="theme-switch" title="Switch Theme">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a>
+        </li>
+    </ul>
+</div>
+
+    <div class="autopagerize_page_element">
+        <div class="content">
+    <div class="post  animated fadeInDown ">
+        <div class="post-content">
+            <div class="post-title">
+                <h3>Powershell Notes - Advanced Automated Administration Class</h3>
+                
+                    <div class="info">
+                        <em class="fas fa-calendar-day"></em>
+                        <span class="date">Thu, Jun 6, 2019</span>
+                        <em class="fas fa-stopwatch"></em>
+                        <span class="reading-time">3-minute read</span>
+                    </div>
+                
+            </div>
+
+            <p>These are my notes from the Global Knowledge &ldquo;Advanced Automated Administration with Powershell&rdquo; class. Class ran from 2019-06-03 to 2019-06-05.</p>
+<h5 id="advanced-functions-and-parameter-blocks">Advanced Functions and Parameter blocks</h5>
+<ul>
+<li>Add <code>[CmdletBinding()]</code> to the head of the function or script.<br>
+Parameter block example:</li>
+</ul>
+<div class="highlight"><pre class="chroma"><code class="language-powershell" data-lang="powershell"><span class="k">Param</span><span class="p">(</span>
+    <span class="nv">$ParamOne</span><span class="p">,</span> <span class="c">#No type or conditions</span>
+    <span class="no">[string]</span><span class="nv">$ParamTwo</span><span class="p">,</span> <span class="c"># parameter expects a string</span>
+    <span class="no">[string]</span><span class="nv">$ParamThree</span> <span class="p">=</span> <span class="s2">&#34;DefaultValue&#34;</span><span class="p">,</span> <span class="c"># Parameter expects a string, and defaults to &#34;DefaultValue&#34; if no value is provided.</span>
+    <span class="p">[</span><span class="k">Parameter</span><span class="p">(</span><span class="k">Mandatory</span><span class="p">=</span><span class="nv">$true</span><span class="p">)]</span>
+    <span class="no">[string]</span><span class="nv">$ParamFour</span><span class="p">,</span> <span class="c"># Sets parameter to mandatory.  $True is not required as adding Mandatory assumes true.</span>
+<span class="p">)</span>
+</code></pre></div><ul>
+<li><code>[string[]]</code> allows multiple string inputs and requires logic in script to handle; ex: multiple computer names.</li>
+<li><code>[ValidateCount(start,end)]</code> sets a min and max number of inputs to a parameter.</li>
+<li><code>[ValidateSet()]</code> Validates only items in the list can be used and are available via tab completion.</li>
+<li><code>[ValidateScript({True or False script block})]</code> Validate a script block, which evaluates to True or False.</li>
+<li>Add ```ValueFromPipeLine=$true`` to parameter allows accepting a value from the pipeline for a specific paramater.</li>
+<li>Add <code>ValueFromPipelineByPropertyName=$true</code> allows using a property name from the pipeline.</li>
+<li>Both ValueFromPipeLine and ValueFromPipelineByPropertyName can be used on a single parameter.</li>
+<li>Add <code>SupportsShouldProcess=$True</code> to Cmdletbinding() to enable -whatif parameter.</li>
+<li>Add <code>ConfirmImpact=&quot;level&quot;</code> to CmdletBinding() enables -confirm.</li>
+<li>ConfirmImpact Levels are &ldquo;High&rdquo;, &ldquo;Medium&rdquo;, &ldquo;Low&rdquo;.
+<!-- raw HTML omitted -->
+Example:</li>
+</ul>
+<div class="highlight"><pre class="chroma"><code class="language-powershell" data-lang="powershell">    <span class="p">[</span><span class="n">ValidateScript</span><span class="p">({</span>
+        <span class="k">If</span><span class="p">(</span><span class="nb">Test-Path</span><span class="p">(</span><span class="nb">Split-Path</span> <span class="nv">$_</span><span class="p">)){</span>
+            <span class="nv">$True</span>
+        <span class="p">}</span>
+        <span class="k">else</span> <span class="p">{</span>
+            <span class="k">Throw</span> <span class="s2">&#34;Could not find $_&#34;</span>
+            <span class="p">}</span>
+    <span class="p">})]</span>
+</code></pre></div><p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<h5 id="script-modules">Script Modules</h5>
+<ul>
+<li>Modules end in .psm1 and are only renamed ps1 files.</li>
+<li><code>PSModulePath</code> contains the paths to script modules.</li>
+<li>Module name and the directory name must match if not using a module manifest.</li>
+</ul>
+<div class="highlight"><pre class="chroma"><code class="language-powershell" data-lang="powershell">    <span class="nb">Import-Module</span> <span class="n">ModuleName</span><span class="p">.</span><span class="n">psm1</span> <span class="c"># Import Module</span>
+    <span class="nb">Remove-Module</span> <span class="n">ModuleName</span> <span class="c"># Remove Module</span>
+    <span class="nb">dir </span><span class="k">function</span><span class="err">:</span> <span class="c"># List install modules</span>
+    <span class="nb">Get-command</span> <span class="c"># List all available commands</span>
+</code></pre></div><p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<h4 id="module-manifest">Module Manifest</h4>
+<p>Example: <code>New-ModuleManifest -Path Path\To\File.psd1 -RootModule FileName.psm1 # Generate a Module Manifest</code></p>
+<ul>
+<li>Recommended to use module manifest for more fine grained control over the module.</li>
+<li>In the manifest, ```FunctionToExport`` change be changed to limit the functions exposed to users.  The other internal functions would still be available for the exposed functions to use.</li>
+<li>Validate a module manifest with <code>Test-ModuleManifest</code> 
+<!-- raw HTML omitted --><!-- raw HTML omitted --></li>
+</ul>
+<h5 id="general-info">General Info</h5>
+<ul>
+<li>Backtick (`) without a trailing space breaks a command to the next line.</li>
+<li>Multiple function parameters can be broken onto separate lines with a backtick without a trailing space.</li>
+<li>The best place to break multiple pipes is right after the pipe (|) symbol and does not require a backtick.</li>
+<li>&ldquo;.&rdquo; references the localhost.</li>
+<li>Works for most Powershell commands, but a few it won&rsquo;t work with.</li>
+<li>It would not display the name of the local computer.  If the computer name needs to be display, <code>$env:COMPUTERNAME</code> should be used instead.
+<!-- raw HTML omitted --><!-- raw HTML omitted --></li>
+</ul>
+<h6 id="positional-parameters">Positional Parameters</h6>
+<ul>
+<li>Follow the order of the parameters defined in the function or script.</li>
+<li>Rearranging the order of the parameters changes the order.
+<!-- raw HTML omitted --><!-- raw HTML omitted --></li>
+</ul>
+<h6 id="wmi-examples">WMI Examples</h6>
+<ul>
+<li>Select all Win32_LogicalDisk properties from local computer: <code>Get-WmiObject Win32_LogicalDisk</code></li>
+<li>Select all logical disks from computer Alpha: <code>Get-WmiObject Win32_LogicalDisk -ComputerName Alpha</code></li>
+<li>Select Logical disks from Alpha with drive type 3: <code>Get-WmiObject Win32_LogicalDisk -ComputerName Alpha | Where-Object { $_.DriveType -eq 3}</code>
+<!-- raw HTML omitted --><!-- raw HTML omitted --></li>
+</ul>
+<h6 id="where-object">Where-Object</h6>
+<p>There are two basic formats:</p>
+<ul>
+<li>Simple: <code>Where-Object DriveType -eq 3</code></li>
+<li>Advanced: <code>Where-Object { $_.DriveType -eq 3}</code>
+<!-- raw HTML omitted -->
+The advanced format allows more complex selection critiera including logical AND/OR, while the simple syntax does not support more than a single condition.
+<!-- raw HTML omitted --><!-- raw HTML omitted --></li>
+</ul>
+<h5 id="comments">Comments</h5>
+<ul>
+<li>The .Parameter does not have to be used in the comment based help.  The parameters for a function can be directly documented, instead of using .Parameter.  This can simply documenting  and prevent missed .Parameter comments.
+<!-- raw HTML omitted --><!-- raw HTML omitted --></li>
+</ul>
+<h5 id="net-and-powershell">.Net and Powershell</h5>
+<div class="highlight"><pre class="chroma"><code class="language-powershell" data-lang="powershell"><span class="no">[math]</span><span class="p">::</span><span class="n">Abs</span><span class="p">(</span><span class="n">number</span><span class="p">)</span> <span class="c">#ABS of a number</span>
+<span class="no">[math]</span><span class="p">::</span><span class="n">Sin</span><span class="p">(</span><span class="n">number</span><span class="p">)</span> <span class="c">#SIn of a number</span>
+<span class="no">[System.Reflection.Assembly]</span><span class="p">::</span><span class="n">LoadWithPartialName</span><span class="p">(</span><span class="s2">&#34;System.Windows.Forms&#34;</span><span class="p">)</span> <span class="c"># Load Windows forms</span>
+<span class="no">[SystemWindows.Form.MessageBox]</span><span class="p">::</span><span class="n">Show</span><span class="p">(</span><span class="s2">&#34;Text&#34;</span><span class="p">)</span> <span class="c"># Display a Windows forms message box</span>
+<span class="no">[System.Environment]</span><span class="p">::</span><span class="n">MachineName</span> <span class="c"># Get computer name</span>
+<span class="no">[System.Environment]</span><span class="p">::</span><span class="n">OsVersion</span> <span class="c"># Get OS version</span>
+<span class="no">[System.Diagnosics.Process]</span><span class="p">::</span><span class="n">GetProcesses</span><span class="p">()</span> <span class="c"># Get running processes</span>
+<span class="no">[System.Diagnosics.Process]</span><span class="p">::</span><span class="n">GetCurrentProcess</span><span class="p">()</span> <span class="c"># Get process info from current shell</span>
+<span class="c"># Speech Synth</span>
+<span class="nb">Add-Type</span> <span class="n">-AssemblyName</span> <span class="n">Speech</span><span class="p">.</span><span class="n">Synthesis</span>
+<span class="nv">$speech</span> <span class="p">=</span> <span class="nb">New-Object</span> <span class="n">System</span><span class="p">.</span><span class="n">Synthesis</span><span class="p">.</span><span class="n">SpeechSynthesizer</span>
+<span class="nv">$speech</span><span class="p">.</span><span class="n">Speak</span><span class="p">(</span><span class="s2">&#34;Hello World&#34;</span><span class="p">)</span>
+</code></pre></div><!-- raw HTML omitted -->
+</div>
+        <div class="post-footer">
+            <div class="info">
+                
+                
+            </div>
+        </div>
+
+        
+            
+        
+    </div>
+
+
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript"
+        src="http://mcfalls-me-www-test.s3-website.us-east-2.amazonaws.com/js/jquery.min.86b1e8f819ee2d9099a783e50b49dff24282545fc40773861f9126b921532e4c.js"
+        integrity="sha256-hrHo&#43;BnuLZCZp4PlC0nf8kKCVF/EB3OGH5EmuSFTLkw="
+        crossorigin="anonymous"></script>
+
+
+
+
+<script type="text/javascript"
+        src="http://mcfalls-me-www-test.s3-website.us-east-2.amazonaws.com/js/bundle.min.0f9c74cb78f13d1f15f33daff4037c70354f98acfbb97a6f61708966675c3cae.js"
+        integrity="sha256-D5x0y3jxPR8V8z2v9AN8cDVPmKz7uXpvYXCJZmdcPK4="
+        crossorigin="anonymous"></script>
+
+<script type="text/javascript"
+        src="http://mcfalls-me-www-test.s3-website.us-east-2.amazonaws.com/js/medium-zoom.min.92f21c856129f84aeb719459b3e6ac621a3032fd7b180a18c04e1d12083f8aba.js"
+        integrity="sha256-kvIchWEp&#43;ErrcZRZs&#43;asYhowMv17GAoYwE4dEgg/iro="
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

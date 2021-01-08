@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Website of Matthew McFalls</title>
+    <link>http://mcfalls-me-www-test.s3-website.us-east-2.amazonaws.com/post/</link>
+    <description>Recent content in Posts on Website of Matthew McFalls</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 06 Jun 2019 00:00:00 +0000</lastBuildDate><atom:link href="http://mcfalls-me-www-test.s3-website.us-east-2.amazonaws.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Powershell Notes - Advanced Automated Administration Class</title>
+      <link>http://mcfalls-me-www-test.s3-website.us-east-2.amazonaws.com/post/2019-06-06-advanced-automated-powershell-notes/</link>
+      <pubDate>Thu, 06 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://mcfalls-me-www-test.s3-website.us-east-2.amazonaws.com/post/2019-06-06-advanced-automated-powershell-notes/</guid>
+      <description>These are my notes from the Global Knowledge &amp;ldquo;Advanced Automated Administration with Powershell&amp;rdquo; class.</description>
+    </item>
+    
+    <item>
+      <title>Nutanix CE Notes</title>
+      <link>http://mcfalls-me-www-test.s3-website.us-east-2.amazonaws.com/post/2019-06-05-nutanix-ce-notes/</link>
+      <pubDate>Wed, 05 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://mcfalls-me-www-test.s3-website.us-east-2.amazonaws.com/post/2019-06-05-nutanix-ce-notes/</guid>
+      <description>Verify all hosts and CVMs are in the same time zone.</description>
+    </item>
+    
+    <item>
+      <title>Nutanix CE Cluster Build</title>
+      <link>http://mcfalls-me-www-test.s3-website.us-east-2.amazonaws.com/post/2019-05-26-nutanix-ce-build/</link>
+      <pubDate>Wed, 22 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://mcfalls-me-www-test.s3-website.us-east-2.amazonaws.com/post/2019-05-26-nutanix-ce-build/</guid>
+      <description>I was slowly purchasing used equipment to build out a storage cluster to replace an underpowered whitebox NAS.</description>
+    </item>
+    
+  </channel>
+</rss>

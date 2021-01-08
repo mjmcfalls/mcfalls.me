@@ -1,15 +1,22 @@
-version: 0.1
+version: 0.2
    
 phases:
   install:
+    runtime-versions:
+      python: 3.8
     commands:
-      - gem install jekyll jekyll-paginate jekyll-sitemap je
-      - bundle update
+      - apt-get update
+      - echo Installing hugo
+      - curl -L -o hugo.deb https://github.com/gohugoio/hugo/releases/download/v0.80.0/hugo_0.80.0_Linux-64bit.deb
+      - dpkg -i hugo.deb
+  pre_build:
+    commands:
+      - echo In pre_build phase..
+      - echo Current directory is $CODEBUILD_SRC_DIR
   build:
     commands:
-      - echo "******** Building Jekyll site ********"
-      - jekyll build
-  post_build:
-    commands:
-      - echo "******** Uploading to S3 ********"
-      - aws s3 sync _site/ s3://mcfalls.me
+      - hugo -v
+artifacts:
+  files:
+    - '**/*'
+  base-directory: public
