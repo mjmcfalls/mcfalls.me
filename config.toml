@@ -1,4 +1,4 @@
-baseURL = "http://mcfalls-me-www-test.s3-website.us-east-2.amazonaws.com"
+baseURL = "http://mcfalls.me"
 languageCode = "en"
 DefaultContentLanguage = "en"
 title = "Website of Matthew McFalls"
