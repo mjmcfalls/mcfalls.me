@@ -1,7 +1,7 @@
 ---
 title: "Negotiation Anything - Throwback Episode: How to Listen for Connection and Persuasion with Jessica Pettitt"
 date: 2020-12-26
-draft: true
+draft: false
 ---
 I was listening to [Negotiation Anything](https://pca.st/s1cccnz1) while catching up on my huge podcast backlog over the 2020 holidays.  
 

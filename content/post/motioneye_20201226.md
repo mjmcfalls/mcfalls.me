@@ -1,9 +1,9 @@
 ---
 title: "MotionEye - Lessons Learned"
 date: 2020-12-26T00:57:58Z
-draft: true
+draft: false
 ---
-Here is what I learned from setting up MotionEye on Centos 8 in a docker container.
+Here are my random notes and learnings from setting up MotionEye on Centos 8 in a docker container.
 
 The MJPEG stream does not work on the Foscam C1 version 1. 
 The set subVideo commands succeed (```http://IP-ADDRESS:88/cgi-bin/CGIProxy.fcgi?cmd=setSubVideoStreamType&streamType=0&usr=admin&pwd=Password```), but result in an access denied when trying to view with the correct credentials.

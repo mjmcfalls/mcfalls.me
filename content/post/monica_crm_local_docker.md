@@ -2,7 +2,7 @@
 title: "Monica Personal CRM build locally in Docker"
 description: "My build process for a local dev instance of Monica in Docker"
 date: 2020-12-26
-draft: true
+draft: false
 ---
 
 I created a local docker-compose to stand up a development/testing instance for my personal usage.  I stood up a local instance to work with Traefik more and get a better handle on how the Let Encrypt process works with Traefik.
