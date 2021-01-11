@@ -4,7 +4,7 @@ date: 2021-01-10
 draft: false
 ---
 
-I saw ["How to Be an Effective Leader While Under Pressure With David Arrington"](https://pca.st/8noiiqgk) on the Negotiate Anything podcast popup in my feed while I catching up on my podcasts from the holidays
+I saw ["How to Be an Effective Leader While Under Pressure With David Arrington"](https://pca.st/8noiiqgk) on the Negotiate Anything podcast popup in my feed while I was catching up on my podcasts from the holidays
 Kwame's podcast typically makes my must-listen list, because his conversations are full of helpful conversation tips and negotiation skills.  Near the end of the podcast David Arrington makes a comment about leadership that resounds with me after my 2020:
 >"You have these folks that say I'm not a motivator, I'm not a nurturer. Then I'm going to say, you’re not a leader. I'm going to say you’re a manager. You help people get places. You're not leading them anywhere though. They are doing a job for you. They are not working with you."
 
