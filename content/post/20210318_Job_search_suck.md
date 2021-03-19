@@ -1,7 +1,7 @@
 ---
-title: "Job Searches Sucks
+title: "Job Searches Sucks"
 description: "Job Searches Sucks"
-date: 2021-03-188
+date: 2021-03-18
 draft: false
 ---
 
