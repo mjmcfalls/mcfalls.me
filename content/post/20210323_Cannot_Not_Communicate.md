@@ -2,7 +2,7 @@
 title: "You Cannot NOT Communicate"
 description: "You Cannot NOT Communicate"
 date: 2021-03-23
-draft: true
+draft: false
 ---
 You cannot NOT communicate.  
 
@@ -20,4 +20,4 @@ You cannot NOT communicate in an interpersonal relationship.
 
 Reach out to the person you are avoiding, apologize and accept your responsibility for the situation, and be empathic to their concerns to reopen the communication channel.  
 
-[Twitter]()
+[Twitter](https://twitter.com/hippiebikeracer/status/1374364271212134402?s=20)
