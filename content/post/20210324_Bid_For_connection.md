@@ -2,7 +2,7 @@
 title: "Bid For Connection"
 description: "Bid For Connection"
 date: 2021-03-24
-draft: true
+draft: false
 ---
 
 Bids are important in relationships. They build trust and connection, or they break trust and connection based on our response.  
@@ -29,4 +29,4 @@ Every day bids can be things like messages before tough meetings, best wishes fo
 
 Bids can be used in all of our relationships. They show the other person we are interested and want to connect with them.  
 
-[Twitter]()
+[Twitter](https://twitter.com/hippiebikeracer/status/1374722975723839494?s=20)
