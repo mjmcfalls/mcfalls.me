@@ -25,4 +25,4 @@ Think about all the great conversations in your life.  Where those conversations
 
 In your next conversation, try suspending your judgment of the person and topic to see where the conversation goes and how a building block to a relationship is added.
 
-[Twitter]()
+[Twitter](https://twitter.com/hippiebikeracer/status/1375085191161602048?s=20)
