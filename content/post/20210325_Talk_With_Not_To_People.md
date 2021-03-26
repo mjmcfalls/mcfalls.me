@@ -2,10 +2,10 @@
 title: "Talk With NOT To people"
 description: "Talk With NOT To people"
 date: 2021-03-25
-draft: true
+draft: false
 ---
 
-Do you talk with or talk to people?
+**Do you talk with or talk to people?**
 
 Talking to people is a transactional act of giving and receiving information. Talking to people assumes the other person has nothing new, helpful, or a different point of view on the topic. It is merely an act of transmitting a piece of information. 
 
