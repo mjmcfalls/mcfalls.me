@@ -5,6 +5,7 @@ date: 2021-03-31
 draft: false
 ---
 **Teach People To Be Better**  
+
 We teach people how to communicate through every conversation. 
 
 Through conversations, you have the opportunity to teach others how to be better communicators, and teach new communication skills.  
@@ -21,4 +22,4 @@ Honestly?  Many people won't notice new communication skills.  People are usuall
 
 Those who notice the new skills, likely, won't say anything. If they do say provide feedback, then its a good sign. 
 
-[Twitter]()
+[Twitter](https://twitter.com/hippiebikeracer/status/1377245804969201670?s=20)
