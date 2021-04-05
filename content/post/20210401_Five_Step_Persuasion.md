@@ -6,7 +6,7 @@ draft: false
 ---
 **5 Step Persuasion** 
 
-One way to persuade your audience during a talk, meeting, or conversation is with a relevant story. Another way to persuade your audience is with a five-step technique created by Alan Monroe called Monre's Motivated Sequence.
+One way to persuade your audience during a talk, meeting, or conversation is with a relevant story. Another way to persuade your audience is with a five-step technique created by Alan Monroe called Monroe's Motivated Sequence.
 
 Monroe crafted a five-step sequence for persuasion:
 
