@@ -4,7 +4,7 @@ description: "How to Apologize"
 date: 2021-04-05
 draft: false
 ---
-*How to Apologize** 
+**How to Apologize**
 
 We all have and will hurt someone, and have to apologize.  
 
