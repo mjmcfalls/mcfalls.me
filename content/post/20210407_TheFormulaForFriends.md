@@ -26,4 +26,4 @@ We build and maintain relationships through adjusting the above values based on 
 
 Note: The formula assumes the other person has not signaled they are uninterested. Time can overcome some objections; however, don't be a stalker, don't be a creep, and no means no. 
 
-[Twitter]()
+[Twitter](https://twitter.com/hippiebikeracer/status/1379781061069135877?s=20)
