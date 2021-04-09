@@ -1,6 +1,6 @@
 ---
-title: "Don't Tell People, Help Them See*"
-description: "Don't Tell People, Help Them See*"
+title: "Don't Tell People, Help Them See"
+description: "Don't Tell People, Help Them See"
 date: 2021-04-09
 draft: false
 ---
