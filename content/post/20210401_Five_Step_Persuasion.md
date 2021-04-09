@@ -32,4 +32,4 @@ This is the call to action.  Provide a three-item menu of options with clear act
 
 Monroe's motivated sequence can be used in many situations, like elevator pitches, meetings, persuading a team member or manager.  It can be scaled to be as brief or long as needed. **The next time you need to persuade, try the five-steps to craft your pitch beforehand.**
 
-[Twitter]()
+[Twitter](https://twitter.com/hippiebikeracer/status/1377606802599243777?s=20)

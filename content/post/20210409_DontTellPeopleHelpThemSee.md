@@ -26,4 +26,4 @@ The more information we have to work with the better we can understand the pictu
 
 When working with people, think about how to help them see things for themselves -- not in a malicious or manipulative manner, but in an empathic and human manner. 
 
-[Twitter]()
+[Twitter](https://twitter.com/hippiebikeracer/status/1380505853560823811?s=20)
