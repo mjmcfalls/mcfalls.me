@@ -22,4 +22,4 @@ The next day I had a couple of minutes at the beginning of a meeting to talk wit
 
 As parents, friends, leaders, significant others, **we want to take care in how we anchor our thoughts and opinions on others, especially in regards to other people.**
 
-[Twitter]()
+[Twitter](https://twitter.com/hippiebikeracer/status/1380868198887780354?s=20)
