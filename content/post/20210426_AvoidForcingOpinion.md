@@ -1,7 +1,7 @@
 ---
 title: "Avoid Forcing Your Opinion on Your Team"
 description: "Avoid Forcing Your Opinion on Your Team"
-date: 2021-04-25
+date: 2021-04-26
 draft: false
 ---
 **Avoid Forcing Your Opinion on Your Team**
@@ -20,4 +20,4 @@ In our teams, we want to foster open discussions and open decision-making throug
 
 Next time, you want to assert an opinion, try turning it into an open-ended question to promote discussion around the opinion. 
 
- [Twitter]()
+ [Twitter](https://twitter.com/hippiebikeracer/status/1386667137620717570?s=20)
